@@ -1,13 +1,6 @@
-# YOLOv8 数据配置文件
-path: ../data  # 数据根目录 (相对于 configs/ 的相对路径)
-
-# 训练和验证图片路径
+names:
+  0: electricity_meter
+nc: 1
+path: /root/.openclaw/workspace/yolov8-meter-training/data
 train: train/images
 val: val/images
-
-# 类别数量
-nc: 1
-
-# 类别名称
-names:
-  0: electricity meter

@@ -139,7 +139,7 @@ nc: {config['nc']}
 # 类别名称
 names:
 """
-        for i, name in class_names:
+        for i, name in enumerate(class_names):
             yaml_str += f"  {i}: {name}\n"
     
     print(f"数据配置文件已创建: {output_path}")
