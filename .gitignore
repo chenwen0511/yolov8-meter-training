@@ -32,13 +32,7 @@ ENV/
 *.swo
 *~
 
-# 数据集 (不提交大数据文件)
-data/
-!data/.gitkeep
 
-# 训练输出 (模型文件可能很大)
-models/*/
-!models/.gitkeep
 
 # 日志
 *.log
