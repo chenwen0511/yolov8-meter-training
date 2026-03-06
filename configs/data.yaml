@@ -1,6 +1,6 @@
 names:
   0: electricity_meter
 nc: 1
-path: /root/.openclaw/workspace/yolov8-meter-training/data
+path: /data2/stephen/yolov8-meter-training/data
 train: train/images
 val: val/images
